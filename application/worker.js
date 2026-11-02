@@ -1,7 +1,7 @@
 const HTML = `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Student Task Manager</title>
+<title>Cloud-Based Student Task Manager</title>
 <style>
  body{font-family:Arial,sans-serif;max-width:760px;margin:30px auto;padding:0 12px}
  h1{color:#f6821f}
@@ -11,7 +11,7 @@ const HTML = `<!DOCTYPE html>
  td,th{border:1px solid #ccc;padding:8px;text-align:left}
  th{background:#f4f4f4}
 </style></head><body>
-<h1 id="heading">Student Task Manager</h1>
+<h1 id="heading">Cloud-Based Student Task Manager</h1>
 <div>
  <input id="title" placeholder="Task title">
  <select id="priority"><option>High</option><option>Medium</option><option>Low</option></select>
@@ -103,3 +103,4 @@ export default {
     return json({ error: "Not found" }, 404);
   },
 };
+
